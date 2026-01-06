@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lobby | Kelompok 1</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <div class="logo"><i class="fa-solid fa-fire"></i> KELOMPOK 1</div>
+        <ul class="nav-menu">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#lobby">Anggota</a></li>
+          <li><a href="#materi">Materi</a></li>
+          <li><a href="#kata">Kata-Kata</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section awal">
+        <a href="#lobby" class="scroll-indicator">
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+      </section>
+
+      <section class="section lobby" id="lobby">
+        <div class="container">
+          <h2 class="lobby-title top">
+            <i class="fa-solid fa-people-group"></i> ANGGOTA KELOMPOK
+          </h2>
+          <h2 class="lobby-choose top">CHOOSE YOUR CHARACTER :</h2>
+
+          <div class="agent-lobby">
+            <div
+              class="agent-card far left"
+              data-path="REMEMBRANCE"
+              data-url="./rafii/index.html"
+            >
+              <img src="./images/jomok.png" />
+              <div class="agent-role role-remembrance">
+                <div class="role-inner">
+                  <img src="./images/Path_Remembrance.webp" alt="Destruction" />
+                  <span class="path-name">REMEMBRANCE</span>
+                </div>
+              </div>
+              <h3>RAFII</h3>
+            </div>
+
+            <div
+              class="agent-card side left"
+              data-path="HUNT"
+              data-url="./robby/index.html"
+            >
+              <img src="./images/robby.jpeg" />
+              <div class="agent-role role-hunt">
+                <div class="role-inner">
+                  <img src="./images/Path_The_Hunt.webp" alt="Destruction" />
+                  <span class="path-name">HUNT</span>
+                </div>
+              </div>
+              <h3>ROBBY</h3>
+            </div>
+
+            <div
+              class="agent-card active"
+              data-path="NIHILITY"
+              data-url="./enggar/index.html"
+            >
+              <img src="./images/gwlagi.jpeg" />
+              <div class="agent-role role-nihility">
+                <div class="role-inner">
+                  <img src="./images/Path_Nihility.webp" alt="Destruction" />
+                  <span class="path-name">NIHILITY</span>
+                </div>
+              </div>
+
+              <h3>ENGGAR</h3>
+            </div>
+
+            <div class="agent-card side right" data-path="ERUDITION" data-url="./hasan/biodata.html">
+              <img src="./images/hasan.jpeg" />
+              <div class="agent-role role-erudition">
+                <div class="role-inner">
+                  <img src="./images/Path_Erudition.webp" alt="Destruction" />
+                  <span class="path-name">ERUDITION</span>
+                </div>
+              </div>
+              <h3>HASAN</h3>
+            </div>
+
+            <div class="agent-card far right" data-path="DESTRUCTION" data-url="./zaidan/portfolio.html">
+              <img src="./images/zaidan.jpg" />
+              <div class="agent-role role-destruction">
+                <div class="role-inner">
+                  <img src="./images/Path_Destruction.webp" alt="Destruction" />
+                  <span class="path-name">DESTRUCTION</span>
+                </div>
+              </div>
+              <h3>ZAYDAN</h3>
+            </div>
+          </div>
+          <div class="select-indicator">
+            <span class="line"></span>
+            <span class="core"></span>
+            <span class="line"></span>
+          </div>
+
+          <p class="select-text">CHARACTER READY</p>
+        </div>
+      </section>
+
+      <section class="section agent-table">
+        <div class="container">
+          <h2 class="section-title">
+            <i class="fa-solid fa-table"></i> Role & Status
+          </h2>
+
+          <div class="table-wrapper">
+            <table class="agent-info">
+              <thead>
+                <tr>
+                  <th>Agent</th>
+                  <th>Path</th>
+                  <th>Role</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ENGGAR</td>
+                  <td class="path nihility">NIHILITY</td>
+                  <td>Leader & Strategist</td>
+                  <td class="ready">READY</td>
+                </tr>
+                <tr>
+                  <td>RAFII</td>
+                  <td class="path remembrance">REMEMBRANCE</td>
+                  <td>idea seeker</td>
+                  <td class="ready">READY</td>
+                </tr>
+                <tr>
+                  <td>ROBBY</td>
+                  <td class="path hunt">HUNT</td>
+                  <td>UI / UX Designer & idea seeker</td>
+                  <td class="ready">READY</td>
+                </tr>
+
+                <tr>
+                  <td>HASAN</td>
+                  <td class="path erudition">ERUDITION</td>
+                  <td>idea seeker</td>
+                  <td class="ready">READY</td>
+                </tr>
+                <tr>
+                  <td>ZAYDAN</td>
+                  <td class="path destruction">DESTRUCTION</td>
+                  <td>idea seeker & Documentation</td>
+                  <td class="ready">READY</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section placeholder" id="materi">
+        <div class="container">
+          <h2 class="section-title">
+            <i class="fa-solid fa-book"></i> Materi yang Pernah Dipelajari
+          </h2>
+
+          <!-- ITEM 1 -->
+          <div class="materi-item">
+            <div class="materi-image">
+              <img src="./images/word.png" alt="word" />
+            </div>
+            <div class="materi-content">
+              <h3>Microsoft Word</h3>
+              <p>
+                Microsoft Word adalah perangkat lunak pengolah kata yang
+                memudahkan pembuatan dokumen dan laporan. Materi yang dipelajari
+                meliputi:
+              </p>
+
+              <ul class="materi-list">
+                <li>Drop Cap</li>
+                <li>Pembuatan dan struktur makalah</li>
+                <li>Mail Merge</li>
+                <li>Shortcut Microsoft Word</li>
+                <li>Fitur Comment dan Track Changes</li>
+                <li>Pembuatan daftar isi</li>
+                <li>Daftar gambar dan daftar tabel</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="materi-item reverse">
+            <div class="materi-image">
+              <img src="./images/exeljir.png" alt="exel" />
+            </div>
+            <div class="materi-content">
+              <h3>Microsoft Excel</h3>
+              <p>
+                Microsoft Excel adalah perangkat lunak spreadsheet yang
+                digunakan untuk mengolah angka dan menganalisis data. Materi
+                pembelajaran yang dipelajari meliputi:
+              </p>
+
+              <ul class="materi-list">
+                <li>Fungsi aritmatika (penjumlahan, pengurangan, dll.)</li>
+                <li>Fungsi COUNT dan pengolahan data</li>
+                <li>Pembuatan dan penggunaan diagram</li>
+                <li>Pivot Table untuk analisis data</li>
+                <li>Visualisasi data dalam bentuk grafik</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="materi-item">
+            <div class="materi-image">
+              <img src="./images/ppt.png" alt="powerpoint" />
+            </div>
+            <div class="materi-content">
+              <h3>Microsoft PowerPoint</h3>
+              <p>
+                Microsoft PowerPoint digunakan untuk membuat presentasi
+                berbentuk slide yang menampilkan poin-poin utama secara ringkas
+                dan visual. Materi pembelajaran meliputi:
+              </p>
+
+              <ul class="materi-list">
+                <li>Pembuatan slide presentasi yang terstruktur</li>
+                <li>Penggunaan teks singkat dan poin-poin utama</li>
+                <li>Pemanfaatan visual yang relevan (gambar dan ikon)</li>
+                <li>Penggunaan SmartArt untuk penyajian informasi</li>
+                <li>Pemilihan template dan desain slide</li>
+                <li>Pengaturan font agar presentasi mudah dibaca</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="materi-item reverse">
+            <div class="materi-image">
+              <img src="./images/my.png" alt="database" />
+            </div>
+            <div class="materi-content">
+              <h3>Database</h3>
+              <p>
+                Basis data adalah kumpulan tabel yang digunakan untuk menyimpan
+                data secara terstruktur agar rapi, aman, dan mudah dicari.
+                Materi pembelajaran meliputi:
+              </p>
+
+              <ul class="materi-list">
+                <li>Konsep dasar basis data dan tabel</li>
+                <li>Pengelolaan data menggunakan DBMS</li>
+                <li>Penggunaan Microsoft Access sebagai DBMS</li>
+                <li>Penggunaan MySQL untuk pengolahan database</li>
+                <li>
+                  Pembuatan tabel dan pengelolaan database melalui Command
+                  Prompt (CMD)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quotes" id="kata">
+        <div class="container">
+          <h2 class="section-title">
+            <i class="fa-solid fa-quote-left"></i> kata-kata ceritanya
+          </h2>
+
+          <div class="quote-grid">
+            <div class="quote-card">
+              <p class="quote-text">
+                "True happiness is when we are able to create happiness for
+                ourselves.""
+              </p>
+              <span class="quote-name">— Rafii</span>
+            </div>
+
+            <div class="quote-card">
+              <p class="quote-text">"Wherever I stand, there my throne is."</p>
+              <span class="quote-name">— Enggar</span>
+            </div>
+
+            <div class="quote-card">
+              <p class="quote-text">
+                "Knowledge is a paradox, the more one understands, the more one
+                realizes the vastness of one’s ignorance."
+              </p>
+              <span class="quote-name">— Robby</span>
+            </div>
+
+            <div class="quote-card">
+              <p class="quote-text">
+                “Kalau bisa dibuat rapi, kenapa harus asal jadi?”
+              </p>
+              <span class="quote-name">— Hasan</span>
+            </div>
+
+            <div class="quote-card">
+              <p class="quote-text">
+                "One step at a time, and your dreams will come true, right?"
+              </p>
+              <span class="quote-name">— Zaydan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer simple">
+      <p>© 2025 Kelompok 1</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

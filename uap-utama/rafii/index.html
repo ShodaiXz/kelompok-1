@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi Radithya Bahij | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">rafiradithyabahij<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Expertise</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+            </ul>
+            <a href="mailto:rafiradithiabahij@gmail.com" class="nav-btn">GET IN TOUCH</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-left fade-in-left">
+                <div class="image-frame">
+                    <img src="WhatsApp Image 2025-12-21 at 04.02.44.jpeg" alt="Rafi Radithya Bahij">
+                </div>
+            </div>
+            <div class="hero-right">
+                <span class="badge fade-in">AI & DIGITAL STRATEGIST</span>
+                <h1 class="title-animation">Rafi Radithya <br>Bahij</h1>
+                <p class="description fade-in-delay">
+                    Mengakselerasi pertumbuhan melalui <strong>Artificial Intelligence</strong> dan <strong>Pemrograman</strong>. 
+                    Saya tertarik dalam membangun bisnis digital di Shopee serta mempelajari strategi investasi jangka panjang untuk pertumbuhan aset yang stabil.
+                </p>
+                
+                <div class="hero-contact fade-in-delay">
+                    <div class="c-item"><i class="fas fa-envelope"></i> rafiradithiabahij@gmail.com</div>
+                    <div class="c-item"><i class="fas fa-phone"></i> +62 838-7268-7295</div>
+                </div>
+
+                <div class="hero-actions fade-in-delay">
+                    <a href="https://wa.me/6283872687295" class="btn-main">Connect via WhatsApp</a>
+                    <div class="hero-stats">
+                        <div class="stat"><span>2+</span><p>Stores</p></div>
+                        <div class="stat"><span>5+</span><p>Assets</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="expertise">
+        <div class="container">
+            <h2 class="section-title reveal">Core Expertise</h2>
+            <div class="grid-3">
+                <div class="card reveal">
+                    <i class="fas fa-microchip"></i>
+                    <h3>AI & Tech</h3>
+                    <p>Mempelajari Artificial Intelligence dan pemrograman sebagai dasar pengembangan solusi digital berbasis data.</p>
+                </div>
+                <div class="card reveal">
+                    <i class="fas fa-store"></i>
+                    <h3>Digital Business</h3>
+                    <p>Menganalisis dan mengembangkan bisnis digital di Shopee melalui pengelolaan produk, iklan, strategi bisnis dan efisiensi operasional.</p>
+                </div>
+                <div class="card reveal">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Investment</h3>
+                    <p>Mempelajari analisis investasi jangka panjang untuk pengelolaan aset yang terukur dan berkelanjutan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title reveal">Recent Projects</h2>
+            <div class="grid-3">
+                <a href="https://id.shp.ee/NDNhjQ7" target="_blank" class="p-card reveal">
+                    <div class="p-img shopee-bg"><i class="fas fa-bag-shopping"></i></div>
+                    <div class="p-content">
+                        <h4>Digital Store 01</h4>
+                        <p>Toko E-commerce yang dikelola untuk penjualan popok bayi, sebagai bagian dari pengembangan dan pengujian strategi bisnis digital.</p>
+                    </div>
+                </a>
+                <a href="https://s.shopee.co.id/8APCNWby6b" target="_blank" class="p-card reveal">
+                    <div class="p-img baby-bg"><i class="fas fa-baby-carriage"></i></div>
+                    <div class="p-content">
+                        <h4>Digital Store 02</h4>
+                        <p>Toko E-commerce dengan produk serupa yang digunakan untuk membandingkan pendekatan pengelolaan, promosi, dan performa penjualan.</p>
+                    </div>
+                </a>
+                <a href="masssambaaatukaammm.html" class="p-card reveal" style="transition-delay: 0.2s;">
+                    <div class="p-img invest-bg"><i class="fas fa-arrow-trend-up"></i></div>
+                    <div class="p-content">
+                        <h4>Investment Portfolio Analysis</h4>
+                        <p>Long-term Asset Management • View Details</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rafi Radithya Bahij. Bridging AI and Finance.</p>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Portfolio | Rafi Radithya Bahij</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">rafiradithyabahij<span>.</span></div>
+            <a href="index.html" class="nav-btn"><i class="fas fa-arrow-left"></i> BACK TO HOME</a>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding-top: 160px; min-height: 100vh;">
+        <div class="container">
+            <div class="reveal">
+                <span class="badge">STRATEGIC ASSET MANAGEMENT</span>
+                <h1 style="font-size: 3.5rem; margin: 1.5rem 0; letter-spacing: -2px;">Investment <br>Portfolio</h1>
+                <p class="description" style="max-width: 750px; margin-bottom: 4rem;">
+                    Fokus pada pertumbuhan kekayaan berkelanjutan melalui pengelolaan aset digital dan instrumen keuangan modern dengan pendekatan jangka panjang yang disiplin.
+                </p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card reveal">
+                    <div class="icon-box"><i class="fas fa-hourglass-half"></i></div>
+                    <h3>Long-term Strategy</h3>
+                    <p>Menerapkan metode investasi jangka panjang untuk meminimalisir dampak volatilitas pasar harian dan mengoptimalkan potensi bunga majemuk (compounding interest).</p>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-box"><i class="fas fa-vault"></i></div>
+                    <h3>Asset Management</h3>
+                    <p>Mempelajari pengelolaan alokasi aset pada berbagai instrumen digital untuk menjaga keseimbangan antara pertumbuhan nilai dan risiko portofolio.</p>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-box"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Digital Finance</h3>
+                    <p>Memanfaatkan teknologi finansial terbaru untuk memantau perkembangan pasar secara real-time dan mengambil keputusan berbasis data yang akurat.</p>
+                </div>
+            </div>
+
+            <div class="reveal" style="margin-top: 4rem; padding: 3.5rem; background: var(--card-bg); border-radius: 2rem; border: 1px solid rgba(255,255,255,0.05);">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;">
+                    <div>
+                        <h2 style="margin-bottom: 1.5rem; font-size: 2rem;">Philosophy</h2>
+                        <p style="color: var(--text-low); line-height: 1.8;">
+                            Dalam mengelola investasi jangka panjang, saya percaya bahwa <strong>disiplin dan konsistensi</strong> merupakan faktor utama. Pendekatan yang saya pelajari berfokus pada pemilihan aset dengan fundamental yang baik serta pengelolaan risiko melalui diversifikasi portofolio ke beberapa sektor digital.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 style="margin-bottom: 1.5rem; font-size: 2rem;">Specialized Skills</h2>
+                        <ul style="list-style: none; color: var(--text-low);">
+                            <li style="margin-bottom: 1rem;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> <strong>Risk Management:</strong> Pemahaman dasar dalam analisis toleransi risiko pada berbagai aset.</li>
+                            <li style="margin-bottom: 1rem;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> <strong>Capital Management:</strong> Pengelolaan arus kas untuk mendukung investasi jangka panjang secara konsisten.</li>
+                            <li style="margin-bottom: 1rem;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> <strong>General Digital Assets:</strong> Pemahaman ekosistem aset digital dan dinamika pasar secara umum.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 5rem; padding-bottom: 5rem;">
+                <a href="index.html" class="btn-main">Back to Home Page</a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="border-top: 1px solid rgba(255,255,255,0.05); padding: 4rem 0; text-align: center; color: var(--text-low);">
+        <p>&copy; 2025 Rafi Radithya Bahij. Strategic Investment Management.</p>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

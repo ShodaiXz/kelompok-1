@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil | Enggar</title>
+    <link rel="shortcut icon" href="./images/mek.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- LOADING PAGE -->
+    <div id="loader">
+      <div class="loader-content">
+        <img src="./images/keqing-loading.gif" alt="Loading" />
+        <p>Loading<span class="dots"></span></p>
+      </div>
+    </div>
+
+    <div class="layout">
+      <!-- Navbar kiri -->
+      <nav class="sidebar">
+        <!-- ATAS -->
+        <div class="sidebar-top">
+          <img src="./images/keqing.jpeg" alt="Logo" class="sidebar-logo" />
+        </div>
+
+        <!-- TENGAH -->
+        <div class="sidebar-nav">
+          <a href="#home"><i class="fa-solid fa-house"></i></a>
+          <a href="#skills"><i class="fa-solid fa-trophy"></i></a>
+          <a href="#hobby"><i class="fa-solid fa-book"></i></a>
+          <a href="#contact"><i class="fa-solid fa-address-book"></i></a>
+        </div>
+      </nav>
+
+      <!-- Konten -->
+      <main class="content">
+        <div class="section-header">
+          <span></span>
+          <h1><i class="fa-solid fa-code"></i> Welcome To My Website</h1>
+          <span></span>
+        </div>
+        <section id="home" class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title"><span>DIMAS ENGG</span>AR PUTRA</h1>
+            <p class="hero-subtitle">065125018 • Kelas A • Semester 1</p>
+            <a href="#about" class="hero-btn">Lihat Ke Bawah</a>
+          </div>
+        </section>
+        <section id="about">
+          <div class="about">
+            <div class="about-content">
+              <h1>Tentang</h1>
+              <hr />
+              <p>
+                Perkenalkan, nama saya Dimas enggar putra. Saya lahir di Brebes
+                dan saat ini sedang menempuh pendidikan di Universitas Pakuan.
+                Saya merupakan seorang backend developer yang memiliki
+                ketertarikan besar pada pengembangan sistem backend yang
+                efisien, aman, dan scalable. Saat ini, saya fokus mendalami dan
+                mengembangkan kemampuan menggunakan Golang (Go), khususnya dalam
+                membangun API, sistem backend, dan arsitektur aplikasi yang
+                baik.
+              </p>
+            </div>
+            <img src="./images/gwlagi.jpeg" alt="" />
+          </div>
+        </section>
+        <section id="skills">
+          <div class="skills-wrapper">
+            <div class="section-header">
+              <span></span>
+              <h1><i class="fa-solid fa-trophy"></i> Skills</h1>
+              <span></span>
+            </div>
+            <div class="skills">
+              <div class="skill-card">
+                <i class="fa-brands fa-golang"></i>
+                <h3>Golang</h3>
+                <p>Backend Development</p>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>PostgreSQL</h3>
+                <p>Database Design</p>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend API</h3>
+                <p>REST & Clean Architecture</p>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <h3>Linux</h3>
+                <p>I use Arch btw</p>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Developer</h3>
+                <p>Backend Development & AI Engineer</p>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-brands fa-aws"></i>
+                <h3>AWS Deployment</h3>
+                <p>Deploying</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="hobby">
+          <div class="hobby-wrapper">
+            <div class="section-header">
+              <span></span>
+              <h1><i class="fa-solid fa-book"></i> Hobby</h1>
+              <span></span>
+            </div>
+
+            <div class="hobby-grid">
+              <div
+                class="hobby-card small"
+                style="background-image: url('./images/hsr.jpeg')"
+              >
+                <div class="overlay"></div>
+                <div class="hobby-text">
+                  <h3><i class="fa-solid fa-chess"></i> Main Game</h3>
+                  <p>HSR, Mobile Legends, Roblox</p>
+                </div>
+              </div>
+              <div
+                class="hobby-card small"
+                style="background-image: url('./images/mimir.jpeg')"
+              >
+                <div class="overlay"></div>
+                <div class="hobby-text">
+                  <h3><i class="fa-solid fa-bed"></i> Bobo</h3>
+                  <p>A Mimir...</p>
+                </div>
+              </div>
+
+              <div
+                class="hobby-card tall"
+                style="background-image: url('./images/w.jpeg')"
+              >
+                <div class="overlay"></div>
+                <div class="hobby-text">
+                  <h3>
+                    <i class="fa-solid fa-computer"></i> Belajar Teknologi
+                  </h3>
+                  <p>Backend & Logic, Bikin aplikasi gk jelas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="contact-wrapper">
+            <!-- Judul -->
+            <div class="section-header">
+              <span></span>
+              <h1><i class="fa-solid fa-address-book"></i> Contact</h1>
+              <span></span>
+            </div>
+
+            <div class="contact-box">
+              <!-- KIRI -->
+              <div class="contact-text">
+                <h2><i class="fa-solid fa-fingerprint"></i> Get in touch</h2>
+                <p>
+                  Kamu bisa menemukan saya di platform berikut. Terbuka untuk
+                  diskusi, kolaborasi, atau sekadar ngobrol teknologi.
+                </p>
+              </div>
+
+              <!-- KANAN -->
+              <div class="contact-socials">
+                <a href="https://github.com/ShodaiXz" class="social-card">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+
+                <a href="https://dimasenggar.pages.dev/" class="social-card">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Portofolio</span>
+                </a>
+
+                <a href="#" class="social-card">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+
+                <a href="mailto:dimasenggarputra@gmail.com" class="social-card">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Email</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="contact-divider"></div>
+        <footer class="footer">
+          <div class="footer-line"></div>
+
+          <div class="footer-content">
+            <p class="footer-name">DIMAS ENGGAR PUTRA</p>
+            <p class="footer-role">Backend Developer • Golang Enthusiast</p>
+
+            <p class="footer-copy">© 2025 • Built with milo ice & keqing</p>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
